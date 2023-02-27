@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Ramp Workshop</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <h1>Ramp demo</h1>
+
+  <div class="form">
+    <h3>Parameters</h3>
+
+    <div class="input-container">
+      <label for="crypto-select">Select crypto asset: </label>
+      <select id="crypto-select">
+        <option value="ETH" selected>ETH</option>
+        <option value="BTC">BTC</option>
+      </select>
+    </div>
+
+    <div class="input-container">
+      <label for="crypto-select">Type in transaction value in EUR: </label>
+      <input type="number" id="eur-value" min="0" step="0.01">
+    </div>
+  </div>
+
+  <div class="launch-button-container">
+    <div class="launch-mode-container">
+      <h3>Launch mode - overlay mode</h3>
+      <button class="launch-button" id="launch-desktop">
+        Launch desktop Ramp over the current app
+      </button>
+      <button class="launch-button" id="launch-mobile">
+        Launch mobile Ramp over the current app
+      </button>
+    </div>
+
+    <div class="launch-mode-container">
+      <h3>Launch mode - hosted mode</h3>
+      <button class="launch-button" id="launch-desktop-new-tab">
+        Launch desktop Ramp in new tab
+      </button>
+      <button class="launch-button" id="launch-mobile-new-tab">
+        Launch mobile Ramp in new tab
+      </button>
+    </div>
+
+    <div class="launch-mode-container">
+      <h3>Launch mode - embedded mode</h3>
+      <button class="launch-button" id="launch-desktop-selected-element">
+        Launch desktop Ramp in a selected element
+      </button>
+      <button class="launch-button" id="launch-mobile-selected-element">
+        Launch mobile Ramp in a selected element
+      </button>
+    </div>
+  </div>
+
+  <div class="ramp-container">
+    <h2>Ramp will appear here</h2>
+
+    <div id="ramp-node" class="ramp-node"></div>
+  </div>
+
+  <script src="./scripts/index.ts"></script>
+</body>
+</html>
