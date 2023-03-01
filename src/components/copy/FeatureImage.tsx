@@ -59,7 +59,6 @@ export default function FeatureImage() {
           </Text>
           <Heading>A Novel Way to Increase Profit Margins using NFT Technology</Heading>
           <Text padding={10} fontSize={'xl'}>
-            The blockchain is the future of business. It is the future>
             The blockchain is the future of business. It is the future of the internet.
             Today many blockchain platforms and cryptocurrencies exist with the search to find relevant pervasive use of this technology.
           We imagined a world where everything was tokenized....To the point where it gave one valuable quality to that thing. It would make the end product tradeable.
