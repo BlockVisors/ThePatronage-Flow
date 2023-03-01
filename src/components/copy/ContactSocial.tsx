@@ -180,9 +180,8 @@ export default function ContactFormWithSocialButtons() {
                     bg="blue.400"
                     color="white"
                     _hover={{
-                      bg: 'blue.500',
-                    }}
-                    isFullWidth>
+                      bg: 'blue.500'}}>
+                
                     Send Message
                   </Button>
                 </VStack>

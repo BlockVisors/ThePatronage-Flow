@@ -7,7 +7,7 @@ import AppLayout from "../../../components/AppLayout"
 import { NFTModelsGrid } from "../../../components/drops/NFTModelsGrid"
 import { SectionHeader } from "../../../ui/SectionHeader"
 
-export const Swaps = () => {
+export const WalletsPage = () => {
   const [result] = useQuery<NftModelsQuery>({
     query: NftModelsDocument,
     variables: { appId: process.env.NEXT_PUBLIC_CLIENT_ID },
@@ -27,4 +27,4 @@ export const Swaps = () => {
   )
 }
 
-export default Swaps
+export default WalletsPage
