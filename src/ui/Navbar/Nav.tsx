@@ -1,5 +1,6 @@
 import { Center, Heading, Tag } from "@chakra-ui/react"
 import * as React from "react"
+import Logo from "../../components/Logo"
 
 import { NavbarBase } from "./NavbarBase"
 
@@ -11,6 +12,10 @@ export const Navbar = () => {
         href: "/app/about",
       },
       {
+        title: "Patrons",
+        href: "/app/aboutbusiness",
+      },
+       {
         title: "Business",
         href: "/app/aboutbusiness",
       },
@@ -25,11 +30,12 @@ export const Navbar = () => {
       {
         title: "My Account",
         href: "/app/account",
-      },
-      {
-        title: "Ramp",
-        href: "https://buy.ramp.network?hostApiKey=your_host_apiKey&hostAppName=your_app_name&hostLogoUrl=https://example.com/logo.png",
       }
+      // },
+      // {
+      //   title: "Ramp",
+      //   href: "https://buy.ramp.network?hostApiKey=your_host_apiKey&hostAppName=your_app_name&hostLogoUrl=https://example.com/logo.png",
+      // }
     
     ]
   }, [])
@@ -38,7 +44,8 @@ export const Navbar = () => {
     <NavbarBase
       leftComponent={
         <>
-          <Heading color="white" >The Patronage Market</Heading>
+        {/* <Logo /> */}
+          <Heading color="white" >The Patronage</Heading>
           <Center pt="1px">
             <Tag size="sm" variant="outline">
               BETA

@@ -18,7 +18,7 @@ const HomePage = () => {
       <Hero
      // imageUrl2='https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80'
         // imageUrl='/images/hero-image.png'
-         imageUrl='https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+        //  imageUrl='https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
         heading="Buy, Sell and Trade
 Experiences as NFTs."
         content={`Gain access to a better Consumer Experience. Join VIP Groups and get access to Exclusive Experiences. Monetize your product or service by rewarding your most loyal customers and reward loyalty points. Grant access to your pre-releases and sneak-peaks.

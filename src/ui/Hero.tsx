@@ -80,7 +80,7 @@ export const Hero = ({ heading, button, content, imageUrl, button2, imageUrl2 }:
             {buttonComponent2}
           </Stack>  
         </Box>
-        <Box maxW={{ lg: "md", xl: "xl" }} mx="auto" mt="8">
+        {/* <Box maxW={{ lg: "md", xl: "xl" }} mx="auto" mt="8">
          <Flex>
           <Image
             rounded={'md'}
@@ -90,7 +90,7 @@ export const Hero = ({ heading, button, content, imageUrl, button2, imageUrl2 }:
           />
         </Flex>
         </Box>
-        
+         */}
       </Box>
       <Box
         zIndex={1}
