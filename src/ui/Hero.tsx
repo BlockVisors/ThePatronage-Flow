@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Heading, Stack, Text, Flex, Image } from '@chakra-ui/react';
 import React from 'react';
 
 interface IHeroWithBackgroundProps {
@@ -7,9 +7,11 @@ interface IHeroWithBackgroundProps {
   button?: React.ReactNode
   button2?: React.ReactNode
   imageUrl?: string
+  imageUrl2?: string
+
 }
 
-export const Hero = ({ heading, button, content, imageUrl, button2 }: IHeroWithBackgroundProps) => {
+export const Hero = ({ heading, button, content, imageUrl, button2, imageUrl2 }: IHeroWithBackgroundProps) => {
   const headingComponent = React.useMemo(() => {
     return typeof heading === "string" ? (
       <Heading
@@ -76,9 +78,19 @@ export const Hero = ({ heading, button, content, imageUrl, button2 }: IHeroWithB
           <Stack direction={{ base: "column", sm: "row" }} spacing="4" mt="8">
             {buttonComponent}
             {buttonComponent2}
-          </Stack>
-           
+          </Stack>  
         </Box>
+        <Box maxW={{ lg: "md", xl: "xl" }} mx="auto" mt="8">
+         <Flex>
+          <Image
+            rounded={'md'}
+            alt={'feature image'}
+            src={ imageUrl2 }
+            objectFit={'cover'}
+          />
+        </Flex>
+        </Box>
+        
       </Box>
       <Box
         zIndex={1}

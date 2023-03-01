@@ -12,6 +12,7 @@ import FeatureImage from '../../../components/copy/FeatureImage';
 import AppLayout from "../../../components/AppLayout";
 import Pricing from '../../../components/copy/Pricing';
 import BusIntegrate from '../../../components/copy/BusIntegrate';
+import Benefits from '../../../components/copy/Benefits';
 
 export const AboutUs = () => {
 
@@ -25,6 +26,7 @@ useEffect(() => setMounted(true), []);
     <AppLayout>
      <FeatureImage />
      <BusIntegrate />
+     <Benefits />
      <Pricing />
    </AppLayout>
   </>

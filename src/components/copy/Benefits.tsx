@@ -16,7 +16,7 @@ interface FeatureProps {
   text: string;
 }
 
-const Feature = ({ heading, text }: FeatureProps) => {
+const Benefit = ({ heading, text }: FeatureProps) => {
   return (
     <GridItem>
       <chakra.h3 fontSize="xl" fontWeight="600" color={'green.700'}>
@@ -27,7 +27,7 @@ const Feature = ({ heading, text }: FeatureProps) => {
   );
 };
 
-export default function gridListWithCTA() {
+export default function Benefits() {
   return (
     <Box as={Container} maxW="6xl" mt={14} p={70}>
       <Grid
@@ -63,37 +63,37 @@ export default function gridListWithCTA() {
           md: 'repeat(4, 1fr)',
         }}
         gap={{ base: '8', sm: '12', md: '16' }}>
-        <Feature
-          heading={'Variety of Experience Offerings'}
-          text={'We will have access almost anything with a ticket or reservation. The possiblities are endless'}
+        <Benefit
+          heading={'New Markets'}
+          text={'Access to newer markets in newer geographies, potentially increased sales'}
         />
-        <Feature
-          heading={'Managed Wallet'}
-          text={'No need to be crypto-savvy to benefit from NFT Technology'}
+        <Benefit
+          heading={'One-Off Services'}
+          text={'Ability to offer specialized one-off services to your customers without affecting as-is processes'}
         />
-        <Feature
-          heading={'Pay with Credit or Crypto'}
-          text={'Using the linked Dapper wallet you can choose to pay with a balance, cryptocurrency or credit card'}
+        <Benefit
+          heading={'Strong Community'}
+          text={'Communities form which help you to produce better future offerings.'}
         />
-        <Feature
-          heading={'Collect and Trade Real-life Utility'}
-          text={'Collect and display your experiences.'}
+        <Benefit
+          heading={'Reduced Fraud'}
+          text={'Ticketing fraud is greatly reduced by tracking redemption.'}
         />
-        <Feature
-          heading={'Elimate Unncessary Customer Service'}
-          text={'Eliminate the hassle of getting value for things that are non-refundable.'}
+        <Benefit
+          heading={'Low-Cost Entry'}
+          text={'Get involved in NFT economy without large investment, Experience, or technical know how.'}
         />
-         <Feature
-          heading={'Low Fees'}
-          text={'Small fees and no "gas" on transactions due the use of Flow Blockchain architecture '}
+         <Benefit
+          heading={'Secondary Market'}
+          text={'Better identify market trends from targeted product releases'}
         />
-        <Feature
-          heading={'Portable Wallet'}
-          text={'Use Dapper wallet for flexiblity and portability.'}
+        <Benefit
+          heading={'Early-Mover Advantage'}
+          text={'Early adopter advantage in Web3 space'}
         />
-        <Feature
-          heading={'Access to Membership Clubs'}
-          text={'Easy access to the creation and use of Memberhsip clubs'}
+        <Benefit
+          heading={'Special Offers'}
+          text={'Segment and Price Premium Offerings'}
         />
       </Grid>
     </Box>

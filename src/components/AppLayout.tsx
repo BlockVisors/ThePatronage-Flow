@@ -2,6 +2,7 @@ import { Box, Flex } from '@chakra-ui/layout';
 
 import { Footer } from '../ui/Footer';
 import { Navbar } from '../ui/Navbar/Nav';
+import NewsletterFooter from '../ui/NewsletterFooter';
 
 type Props = {
   children: React.ReactNode
